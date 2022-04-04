@@ -1,0 +1,33 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "Backend for College Counsellor",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon ./server.js localhost 3081",
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jessechancy/college-counsellor.git"
+  },
+  "keywords": [
+    "backend"
+  ],
+  "author": "Jesse Chan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jessechancy/college-counsellor/issues"
+  },
+  "homepage": "https://github.com/jessechancy/college-counsellor#readme",
+  "dependencies": {
+    "dotenv": "^16.0.0",
+    "express": "^4.17.3",
+    "mongodb": "^4.4.1",
+    "mongoose": "^6.2.9",
+    "nodemon": "^2.0.15",
+    "pine": "^1.1.1",
+    "swagger-jsdoc": "^6.2.0",
+    "swagger-ui-express": "^4.3.0"
+  }
+}
